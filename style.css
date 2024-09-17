@@ -1,0 +1,9 @@
+body{
+    background-color: maroon;
+}
+button{
+    border: none;
+    padding:5px 13px;
+    cursor:pointer;
+    border-radius: 7px;
+}
