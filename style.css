@@ -1,9 +1,26 @@
 body{
-    /* background-color: maroon; */
+    background-image: url(newbg.jpg);
+    background-size: cover;
 }
 
 main{
-    padding: 48px;
+    width: 50%;
+    background-color: rgb(230, 105, 60);
+    margin:auto;
+    border-radius: 9px;
+    padding-top: 6px;
+}
+
+.bio{
+    text-align: center;
+}
+
+ h1, #dev h4, #ab{
+    text-align: center;
+}
+
+section{
+    padding:10px 28px;
 }
 
  img{
@@ -14,9 +31,29 @@ main{
  }
 
 .img-container{
+    margin: auto;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    border:2px solid yellow;
+    height:200px;
+    width:200px;
+    border:2px solid maroon;
 
+}
+
+button{
+    font-size: 14px;
+    width:100%;
+    padding: 9px;
+    border-radius: 12px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(167, 51, 8);
 }
